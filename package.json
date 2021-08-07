@@ -14,7 +14,6 @@
     "test:coverage": "umi-test --coverage"
   },
   "main": "dist/index.js",
-  "homepage": "https://github.com/chengjianguo1/dumi-ui/",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
   "gitHooks": {
