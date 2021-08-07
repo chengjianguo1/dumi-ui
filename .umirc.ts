@@ -18,7 +18,7 @@ export default defineConfig({
       ],
     },
   },
-  exportStatic: {
+  /*  exportStatic: {
     htmlSuffix: true,
-  },
+  }, */
 });
