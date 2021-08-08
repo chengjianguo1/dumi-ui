@@ -1,12 +1,12 @@
-import React, {Component} from "react";
-import FieldContext from "./Context";
+import React, { Component } from 'react';
+import FieldContext from './Context';
 
 export default class Field extends Component {
   static contextType = FieldContext;
 
   constructor(props) {
     super(props);
-    this.state = {}
+    this.state = {};
   }
 
   componentDidMount() {
@@ -23,40 +23,48 @@ export default class Field extends Component {
   onStoreChange = (errMessage) => {
     console.log(errMessage);
     this.setState({
-        errMessage
-    })
+      errMessage,
+    });
     this.forceUpdate();
   };
 
   getControlled = (errMessage) => {
-    const {getFieldValue, setFieldsValue, setRuleValidate, validateField} = this.context;
-    const {name, rules} = this.props;
+    const { getFieldValue, setFieldsValue, setRuleValidate, validateField } =
+      this.context;
+    const { name, rules } = this.props;
     console.log(this.props, 'this.props');
     setRuleValidate(name, rules);
     return {
-      value: getFieldValue(name), //"omg", // get
+      value: getFieldValue(name),
       onChange: (e) => {
         const newValue = e.target.value;
         // set
         setFieldsValue({
           [name]: newValue,
         });
-        
+
         // validate
         const validateMessage = validateField(name, newValue);
         console.log(validateMessage);
       },
-      errMessage
+      errMessage,
     };
   };
   render() {
-    const {children, label} = this.props;
+    const { children, label } = this.props;
     const { errMessage } = this.state;
     console.log(errMessage);
-    const returnChildNode = React.cloneElement(children, this.getControlled(errMessage));
-    return <div style={{ marginBottom: '20px' }}>
-        <label style={{ width: '60px', display: 'inline-block'}}>{label}</label>
+    const returnChildNode = React.cloneElement(
+      children,
+      this.getControlled(errMessage),
+    );
+    return (
+      <div style={{ marginBottom: '20px' }}>
+        <label style={{ width: '60px', display: 'inline-block' }}>
+          {label}
+        </label>
         {returnChildNode}
-    </div>;
+      </div>
+    );
   }
 }
