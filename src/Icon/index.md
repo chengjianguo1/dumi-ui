@@ -12,3 +12,5 @@ group:
 ## Icon
 
 <code src="./icon-example.jsx">
+
+<API src="./API.tsx">
