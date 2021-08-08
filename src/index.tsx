@@ -1,6 +1,6 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
-library.add(faUser);
+import { fas } from '@fortawesome/free-solid-svg-icons';
+library.add(fas);
 
 export { default as Dialog } from './Dialog';
 export { default as Form } from './Form';

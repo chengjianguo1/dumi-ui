@@ -1,7 +1,5 @@
 const IconsCofig = [
   'sort',
-  'accessible-icon',
-  'adn',
   'address-book',
   'angle-double-down',
   'angle-double-left',
@@ -10,6 +8,21 @@ const IconsCofig = [
   'backward',
   'baby-carriage',
   'battery-half',
+  'biking',
+  'swimmer',
+  'arrow-circle-right',
+  'arrow-circle-up',
+  'calendar-check',
+  'camera',
+  'chart-bar',
+  'chart-pie',
+  'cloud-moon-rain',
+  'cloud-sun',
+  'code-branch',
+  'coffee',
+  'cogs',
+  'comment-alt',
+  'comments',
 ];
 
 export default IconsCofig;
