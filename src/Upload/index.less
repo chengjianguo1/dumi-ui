@@ -1,0 +1,63 @@
+.dumi-ui-upload {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  border: 1px solid #eee;
+  &:hover {
+    color: #4569d4;
+    border: 1px solid #4569d4;
+    .upload-plus {
+      color: #4569d4;
+    }
+  }
+  .upload-plus {
+    line-height: 90px;
+    color: #eee;
+    font-size: 30px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+  text-align: center;
+
+  &:hover {
+    .upload-actions {
+      display: block;
+    }
+  }
+  .upload-actions {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+    cursor: pointer;
+    > span {
+      font-size: 12px;
+      color: #fff;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      line-height: 25px;
+      background-color: rgba(0, 0, 0, 0.5);
+      &:hover {
+        color: #4569d4;
+      }
+    }
+    // > span:nth-child(2) {
+    //     border-left: 1px solid #eee;
+    //     width: calc(50% - 1px);
+    // }
+  }
+}
+.dumi-ui-buttom {
+  padding: 8px 15px;
+  background-color: #03c1fd;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px;
+  border: none;
+  margin-bottom: 10px;
+}
