@@ -15,6 +15,6 @@ group:
 
 <code src="./dialog-example.jsx"></code>
 
-<API src="./API.tsx"></API>
+<API src="./dialogApi/dialogApi.tsx"></API>
 
 More skills for writing demo: https://d.umijs.org/guide/basic#write-component-demo

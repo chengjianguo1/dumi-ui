@@ -13,4 +13,4 @@ group:
 
 <code src="./icon-example.jsx">
 
-<API src="./API.tsx">
+<API src="./iconApi/iconApi.tsx">
