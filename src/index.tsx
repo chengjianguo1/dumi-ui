@@ -7,3 +7,4 @@ export { default as Form } from './Form';
 export { default as Guide } from './Guide';
 export { default as Icon } from './Icon';
 export { default as Upload } from './Upload';
+export { default as Table } from './Table';
