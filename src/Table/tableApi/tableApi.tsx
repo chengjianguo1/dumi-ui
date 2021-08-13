@@ -17,7 +17,7 @@ export interface ITableApi {
   /**
    * @description       是否开启排序，还未完成
    * @description.zh-CN 还支持不同的 locale 后缀来实现多语言描述
-   * @default           ColumnType[]
+   * @default           false
    */
   sorted?: boolean;
   /**

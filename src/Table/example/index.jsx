@@ -10,6 +10,7 @@ export default () => {
     {
       title: 'Chinese Score',
       dataIndex: 'chinese',
+      sorted: true,
     },
     {
       title: 'Math Score',
