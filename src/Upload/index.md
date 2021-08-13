@@ -15,4 +15,4 @@ group:
 
 <API src="/API/imgAPI.tsx"></API>
 
-##### 上传文件 api 可能不稳定，代码目录在下/Upload/example/node_upload.js，本地启动服务
+##### 上传文件 api 没有部署服务端，代码目录在下/Upload/example/node_upload.js，本地启动服务
