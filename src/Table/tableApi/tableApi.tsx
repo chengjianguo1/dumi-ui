@@ -9,13 +9,13 @@ export interface ITableApi {
    */
   data?: SourceDataType[];
   /**
-   * @description       表头数据格式
+   * @description       表头数据格式，（开启排序配置后，在需要排序的columns中设置排序方法）
    * @description.zh-CN 还支持不同的 locale 后缀来实现多语言描述
    * @default           ColumnType[]
    */
   columns?: ColumnType[];
   /**
-   * @description       是否开启排序，还未完成
+   * @description       是否开启排序
    * @description.zh-CN 还支持不同的 locale 后缀来实现多语言描述
    * @default           false
    */

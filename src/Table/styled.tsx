@@ -47,3 +47,10 @@ export const TableTable = styled.table`
     }
   }
 `;
+
+export const Sort = styled.span`
+  display: inline-grid;
+  grid-template-rows: 9px 9px;
+  cursor: pointer;
+  align-items: center;
+`;

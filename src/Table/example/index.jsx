@@ -11,6 +11,9 @@ export default () => {
       title: 'Chinese Score',
       dataIndex: 'chinese',
       sorted: true,
+      sorter: {
+        compare: (a, b) => b.chinese - a.chinese,
+      },
     },
     {
       title: 'Math Score',

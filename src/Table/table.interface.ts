@@ -8,6 +8,7 @@ export interface ColumnType {
   title: ReactNode;
   /** 排序等操作用来代替这列的 */
   dataIndex: string;
+  sorted: boolean;
   sorter?: {
     compare: (a: SourceDataType, b: SourceDataType) => number;
   };
