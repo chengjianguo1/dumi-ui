@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from 'react';
-import { TableTable, Sort } from './styled';
+import { TableTable, Sort } from './styled.jsx';
+import { Pagination } from 'dumi-ui';
 import { TableProps, ColumnType, SourceDataType } from './table.interface';
 
 const MapData = (data: SourceDataType[], columnData: ColumnType[]) => {
@@ -133,15 +134,15 @@ export default (props: TableProps) => {
         </thead>
         <tbody>{renderData}</tbody>
       </TableTable>
-      {/* {pagination && (
-				<Pagination
-					style={{ justifyContent: "flex-end" }}
-					total={totalLen}
-					pageSize={pageSize}
-					callback={(v) => setCurrent(v - 1)}
-					defaultCurrent={1}
-				></Pagination>
-			)} */}
+      {pagination && (
+        <Pagination
+          style={{ justifyContent: 'flex-end' }}
+          total={totalLen}
+          pageSize={pageSize}
+          onShowSizeChange={(v: number) => setCurrent(v - 1)}
+          defaultCurrent={1}
+        ></Pagination>
+      )}
     </div>
   );
 };

@@ -56,7 +56,7 @@ export default () => {
   ];
   return (
     <>
-      <Table columns={columns} data={data} />
+      <Table pagination columns={columns} data={data} />
     </>
   );
 };

@@ -21,7 +21,7 @@ export interface ITableApi {
    */
   sorted?: boolean;
   /**
-   * @description       是否有分页器，还未完成
+   * @description       是否有分页器
    * @description.zh-CN 还支持不同的 locale 后缀来实现多语言描述
    * @default           false
    */
