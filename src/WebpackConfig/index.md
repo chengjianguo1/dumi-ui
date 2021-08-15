@@ -3,6 +3,10 @@ nav:
   title: webpack
   path: /webpack
   # order: 1
+group:
+  path: /webpack
+  title: webpack
+  order: 1
 ---
 
 ## webpack 工程化探索
