@@ -22,13 +22,13 @@ export const show = (config) => {
   );
   return {
     hide: () => {
-        let inc;
-        if (instance && instance.getInstance) {
-            inc = instance && instance.getInstance();
-        } else if (instance) {
-            inc = instance;
-        }
-        inc && inc.onCloseDialog();
+      let inc;
+      if (instance && instance.getInstance) {
+        inc = instance && instance.getInstance();
+      } else if (instance) {
+        inc = instance;
+      }
+      inc && inc.onCloseDialog();
     },
   };
 };
