@@ -9,7 +9,7 @@ group:
   order: 2
 ---
 
-## Pagination
+### Pagination
 
 <code src="./pagination-example/index.jsx">
 

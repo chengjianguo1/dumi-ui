@@ -9,7 +9,7 @@ group:
   order: 2
 ---
 
-## Table
+### Table
 
 <code src="./example/index.jsx">
 

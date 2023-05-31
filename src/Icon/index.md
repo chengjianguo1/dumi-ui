@@ -9,7 +9,7 @@ group:
   order: 2
 ---
 
-## Icon
+### Icon
 
 <code src="./icon-example.jsx">
 
