@@ -65,6 +65,7 @@ export default (props: PaginationProps) => {
         setState([1]);
       }
     }
+    // todo
     return number;
   }, [pageSize, total]);
   console.log(totalPage);

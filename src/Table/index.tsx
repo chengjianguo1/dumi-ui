@@ -36,7 +36,8 @@ export default (props: TableProps) => {
       let len = data.length;
       let pagenumber = Math.ceil(len / pageSize!); //页数
       for (let i = 0; i < pagenumber; i++) {
-        //每页该显示多少内容做好。
+        // todo
+        // 每页该显示多少内容做好。
         tmp[i] = data.slice(0 + i * pageSize!, pageSize! + i * pageSize!);
       }
       setPaginationData(tmp);
