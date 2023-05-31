@@ -5,7 +5,7 @@ export default () => {
   // todo
   const columns = [
     {
-      title: 'Name',
+      title: 'Name1',
       dataIndex: 'name',
     },
     {

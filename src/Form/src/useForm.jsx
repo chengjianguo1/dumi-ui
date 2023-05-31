@@ -5,8 +5,8 @@ class FormStore {
     this.store = {}; // 状态
     this.fieldEntities = []; // 组件实例
     this.callbacks = {}; // 回调函数
-    this.rulesValidate = {};
-    this.errMessage = [];
+    this.rulesValidate = {}; // 校验规则
+    this.errMessage = []; // 错误提示
   }
 
   setCallbacks = (newCallbacks) => {
@@ -68,6 +68,7 @@ class FormStore {
           err[name].push(validate.message);
         }
       });
+
     Object.keys(err).forEach((field) => {
       this.fieldEntities.forEach((_entity) => {
         if (_entity.props.name === field) {
