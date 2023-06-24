@@ -13,7 +13,7 @@ group:
 
 ### 仓库地址
 
-[webpack-project-demo](https://github.com/chengjianguo1/webpack-project-demo)
+[webpack-project](https://github.com/chengjianguo1/webpack-project)
 
 <!-- ``` -->
   <!-- 如果您有好的想法也可以给我提issue -->
