@@ -1,11 +1,11 @@
 ---
 nav:
-  title: webpack
+  title: webpack工程化
   path: /webpack
   order: 1
 group:
   path: /webpack
-  title: webpack
+  title: webpack工程化
   order: 1
 ---
 
