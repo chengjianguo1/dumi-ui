@@ -2,7 +2,7 @@
 nav:
   title: webpack
   path: /webpack
-  # order: 1
+  order: 1
 group:
   path: /webpack
   title: webpack

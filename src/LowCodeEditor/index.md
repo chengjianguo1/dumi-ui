@@ -2,11 +2,11 @@
 nav:
   title: 低代码
   path: /lowCodeEditor
-  # order: 1
+  order: 5
 group:
   path: /lowCodeEditor
   title: 低代码
-  order: 1
+  order: 5
 ---
 
 ## lowCodeEditor
